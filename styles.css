@@ -1,0 +1,103 @@
+/* Basic reset for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2f2f2f; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    background-color: #424242; /* Slightly lighter grey background for the container */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.title {
+    color: #ff4081; /* Material Pink color */
+    margin-bottom: 20px;
+    text-align: center; /* Center align title */
+}
+
+/* Input field styling */
+.input-field input {
+    background-color: #616161; /* Medium grey background for inputs */
+    color: #e0e0e0; /* Light grey text for inputs */
+    border: 1px solid #bdbdbd; /* Light grey border */
+}
+
+.input-field input:focus {
+    border: 1px solid #ff4081; /* Material Pink border on focus */
+    box-shadow: 0 1px 0 0 #ff4081; /* Material Pink underline */
+}
+
+/* Button styling */
+.btn {
+    background-color: #4caf50; /* Green color for buttons */
+    color: #fff; /* White text */
+}
+
+.btn:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Recipe section styling */
+.recipe-section {
+    background-color: #616161; /* Medium grey background for recipe sections */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #e0e0e0; /* Light grey text */
+    cursor: pointer; /* Pointer cursor to indicate clickable area */
+}
+
+/* Recipe header styling */
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bdbdbd; /* Light grey border */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Collapsible button styling */
+.collapsible-btn {
+    background-color: #ff4081; /* Material Pink color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.collapsible-btn:hover {
+    background-color: #e0356f; /* Darker pink on hover */
+}
+
+/* Recipe content styling */
+.recipe-content {
+    font-size: 0.9rem;
+    display: none; /* Hidden by default */
+}
+
+/* Search input styling */
+#searchInput {
+    background-color: #616161; /* Medium grey background for search input */
+    color: #e0e0e0; /* Light grey text for search input */
+    border: 1px solid #bdbdbd; /* Light grey border */
+}
+
+#searchInput:focus {
+    border: 1px solid #ff4081; /* Material Pink border on focus */
+    box-shadow: 0 1px 0 0 #ff4081; /* Material Pink underline */
+}
